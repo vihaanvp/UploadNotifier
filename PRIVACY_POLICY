@@ -1,0 +1,51 @@
+PRIVACY POLICY
+Last Updated: July 8, 2025
+
+This Privacy Policy outlines how UploadNotifier ("the Bot") handles data while operating in your Discord server.
+
+1. DATA COLLECTED
+
+UploadNotifier only collects and stores the following server-level configuration data:
+- Discord Server (Guild) ID
+- Notification Channel ID
+- Ping Role ID (optional)
+- Tracked YouTube channel IDs and display names
+- Tracked Twitch usernames and display names
+
+No personal user data (e.g., usernames, message content, DMs) is collected or stored.
+
+2. DATA STORAGE
+
+All data is stored locally on the machine where the bot is hosted in a configuration file (`guild_configs.json`). This data is not transmitted to third parties or remote servers.
+
+3. API USAGE
+
+UploadNotifier uses the following public APIs:
+- **YouTube Data API** to retrieve latest video uploads.
+- **Twitch API** to check if a streamer is live.
+
+Only publicly available channel data is retrieved. No authentication with user accounts is required or used.
+
+4. DATA SHARING
+
+No data is shared with third-party services or external systems. The Bot does not include advertising, analytics, or user tracking.
+
+5. DATA REMOVAL
+
+To delete your server's data, you may:
+- Remove the bot from your server (data is no longer used).
+- Contact the developer (VihaanVP) directly to request full data removal.
+
+6. SECURITY
+
+While best efforts are made to secure stored data, the Bot is provided “as is”. The developers are not responsible for unauthorized access due to hosting setup or user misconfiguration.
+
+7. CHANGES TO THIS POLICY
+
+This Privacy Policy may be updated in the future. Any major changes will be noted in the project repository.
+
+8. CONTACT
+
+For privacy-related concerns, please contact the developer via GitHub or Discord.
+
+By using UploadNotifier, you agree to the terms of this Privacy Policy.

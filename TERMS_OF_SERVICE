@@ -1,0 +1,36 @@
+TERMS OF SERVICE
+Last Updated: July 8, 2025
+
+By using the UploadNotifier Discord Bot ("the Bot"), you agree to the following terms of service. If you do not agree to these terms, please do not use the Bot.
+
+1. DESCRIPTION
+The Bot provides automatic notifications in Discord servers for new YouTube uploads and Twitch live streams from specified channels.
+
+2. USAGE
+You may use the Bot for personal, community, or organizational Discord servers in accordance with Discord’s Terms of Service. You agree not to abuse, exploit, reverse-engineer, or redistribute the Bot or its functionality.
+
+3. API USAGE
+UploadNotifier uses the YouTube Data API and Twitch API. By using the Bot, you agree to also follow the terms set by these services:
+- YouTube API Terms of Service: https://developers.google.com/youtube/terms/api-services-terms-of-service
+- Twitch Developer Agreement: https://www.twitch.tv/p/legal/developer-agreement/
+
+4. DATA COLLECTION
+UploadNotifier stores minimal configuration data, specifically:
+- Discord Server (Guild) ID
+- Notification Channel ID
+- Optional Role ID for pings
+- Tracked YouTube and Twitch channel identifiers and display names
+
+No personal user data (e.g., usernames, messages, DMs) is collected or stored.
+
+5. LIMITATION OF LIABILITY
+The Bot is provided "as is", without warranties of any kind. The developers are not responsible for any damages or issues arising from use of the Bot, including data loss, rate-limiting, or unexpected behavior.
+
+6. TERMINATION
+The developers reserve the right to discontinue the Bot or remove it from servers at any time without prior notice. Servers found violating these terms may be blacklisted.
+
+7. CHANGES TO TERMS
+These terms may be updated at any time. Continued use of the Bot after changes are published indicates acceptance of the new terms.
+
+8. CONTACT
+For support or questions, please contact the developer via GitHub or Discord.
