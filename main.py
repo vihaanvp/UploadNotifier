@@ -25,13 +25,16 @@ CONFIG_FILE = 'guild_configs.json'
 # Load or initialize the configuration file
 if os.path.exists(CONFIG_FILE):
     with open(CONFIG_FILE, 'r') as f:
+        print("Detected existing config file...")
         guild_configs = json.load(f)
 else:
+    print("Config file not found. Creating new config file...")
     guild_configs = {}
 
 # Initialize bot with default intents and addon the guilds intent
 intents = discord.Intents.default()
 intents.guilds = True
+intents.message_content = False
 
 # Initialize Bot commands (ignore the command prefix, use only / commands)
 bot = commands.Bot(command_prefix='!', intents=intents)
@@ -313,6 +316,12 @@ async def get_twitch_stream(channel_name: str, access_token: str):
 @bot.event
 async def on_ready():
     print(f'{bot.user.name} is ready!')
+
+    try:
+        synced = await bot.tree.sync()
+        print(f"Synced {len(synced)} commands globally.")
+    except Exception as e:
+        print(f"Error syncing commands: {e}")
 
     # Start background tasks
     youtube_check.start()
