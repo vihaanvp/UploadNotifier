@@ -21,7 +21,7 @@ Click below to invite the official hosted version to your server:
 
 ### 1. Clone the Repo
 ```bash
-https://github.com/vihaanvp/UploadNotifier.git
+git clone https://github.com/vihaanvp/UploadNotifier.git
 cd discord-notifier-bot
 ```
   
