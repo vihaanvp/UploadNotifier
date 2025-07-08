@@ -49,6 +49,7 @@ Click [here](https://github.com/vihaanvp/UploadNotifier/blob/main/.env.example) 
 1. Go to Discord Developer Portal.
 2. Create a new application and add a bot under the "Bot" section.
 3. Copy the token and paste it into your .env file as DISCORD_TOKEN.
+> Make sure you **ENABLE** the `Server Members Intent`
 
 ### YouTube API Key
 1. Go to Google Cloud Console.
@@ -59,7 +60,7 @@ Click [here](https://github.com/vihaanvp/UploadNotifier/blob/main/.env.example) 
 ### Twitch Client ID & Secret
 1. Go to Twitch Developer Console.
 2. Click "Register Your Application":
-   - Redirect URI: http://localhost
+   - Redirect URI: https://localhost
    - Category: Application Integration
 3. Copy the Client ID and Client Secret into your .env.
 
